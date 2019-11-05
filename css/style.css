@@ -1,0 +1,33 @@
+html{
+    background-color: cornsilk;
+}
+header{
+    background-color: cornflowerblue;
+    color: red;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+font-size: 205px;
+font-weight: bold;
+}
+nav a {
+    color: crimson;
+    background-color: salmon; 
+    font-size: 20px;
+    padding: 50;
+    margin: 50px;
+}
+
+p    {color: red;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+footer a{
+    text-align: center;
+
+}
+img {
+    width: 900px;
+}
