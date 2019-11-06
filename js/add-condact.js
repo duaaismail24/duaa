@@ -1,15 +1,36 @@
 'use strict';
+var complimenting = function(){
+var language;
+language = prompt("Do you like French ? 0-10");
+var name;
+name = prompt('what is your name');
+var compliment;
 
-var greeting;
-var thename;
-thename = prompt("whats your name");
-
-if (thename = "Duaa") {
-greeting = "welcome Duaa";
+if (language == "french") {
+compliment = "You Are welcome";
 } else {
-greeting = "go out!!";
+compliment = "go out!!";
 }
 
-document.write(greeting);
+}
+function WriteLevl(){
+   var frenchLevel;
+   frenchLevel = prompt('what is your level in French? 0-10');
+    var name;
+    name = prompt('What`s your name?')
+    var compliment;
+  
+    if (frenchLevel > 5 && frenchLevel<=10  ) {
+      compliment = 'Hello smart!';
+    } else if (frenchLevel > 5 && frenchLevel<=5) {
+      compliment = 'Good afternoon!';
+    } else if (frenchLevel =0) {
+      compliment = 'comme on!';
+    } else {
+      compliment = 'Please eneter a valid number';
+    }
+  
+    document.write('<h3>' + compliment + ' ' + name + '</h3>');
+  } 
 
-
+WriteLevl();
